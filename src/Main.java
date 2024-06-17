@@ -6,5 +6,9 @@ public class Main {
 
         Info info = new Info();
         info.ShowInfo();
+
+        Calculate calculate = new Calculate();
+        calculate.Mun(1,6);
+        calculate.Sum(6,9);
     }
 }
